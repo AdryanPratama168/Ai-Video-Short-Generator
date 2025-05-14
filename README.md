@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎬 AI Video Shorts Generator 🚀
+A cutting-edge platform that allows users to create and share their own AI-generated short videos. Whether you’re a content creator or simply looking to have fun, this tool leverages advanced artificial intelligence to produce unique, engaging video content with ease.
 
-## Getting Started
+✨ Features
+🎥 Seamless Video Creation: Create stunning short videos using AI with just a few clicks.
 
-First, run the development server:
+🤖 Powered by AI: Harness the power of AI to generate unique video content, no experience required.
 
-```bash
+💻 Fully Responsive: Optimized for all devices — desktop, tablet, and mobile.
+
+🔧 Easy-to-Use Interface: Intuitive design, no technical skills needed.
+
+✂️ Basic Video Editing: Trim, cut, and adjust video clips to your liking.
+
+🔒 Sign Up/Log In: Create an account to save and manage your videos effortlessly.
+
+🚀 Technologies Used
+Next.js: A React framework for building fast, server-side rendered applications.
+
+Tailwind CSS: A utility-first CSS framework for a highly customizable design system.
+
+Supabase: A backend-as-a-service solution for handling authentication, database, and storage.
+
+AI Integration: The heart of the app — utilizing AI models to generate creative video content.
+
+📦 Getting Started
+🔑 Prerequisites
+Node.js: Make sure you have the latest version of Node.js installed. You can download it from here.
+
+Supabase Account: Sign up at supabase.io for a free account and set up your database.
+
+🛠 Installation Steps
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/AdryanPratama168/ai-video-shorts-generator.git
+Navigate to the project folder:
+
+bash
+Copy
+Edit
+cd ai-video-shorts-generator
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Set up your Supabase project:
+
+Go to Supabase and create a new project.
+
+Set your Supabase URL and API Key in the .env.local file.
+
+Run the development server:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Access the app: Open your browser and go to http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🤝 Contributing
+We welcome contributions! If you want to help improve the project, feel free to fork the repository and create a pull request.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔄 How to Contribute:
+Fork this repository.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a new branch (git checkout -b feature-branch).
 
-## Learn More
+Make your changes and commit them (git commit -am 'Add new feature').
 
-To learn more about Next.js, take a look at the following resources:
+Push your branch (git push origin feature-branch).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open a pull request to merge your changes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💬 Feedback:
+Got an idea, suggestion, or found a bug? Open an issue or create a pull request. Your feedback helps us make this project better!
